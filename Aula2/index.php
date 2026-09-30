@@ -6,10 +6,10 @@ echo"Hello, Wagner!";
 // Aula 3
 
 
-// echo"Hello World";
+echo"Hello World";
 
-// $name = "Maria";
-    // print "Seja Bem-Vinda " . $name; 
+ $name = "Maria";
+     print "Seja Bem-Vinda " . $name; 
 
 
 
