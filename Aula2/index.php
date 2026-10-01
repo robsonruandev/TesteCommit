@@ -1,63 +1,58 @@
 <?php
 
-echo"Hello, Wagner!";
+echo "Hello, Wagner!";
 
 
 // Aula 3
 
 
-echo"Hello World";
+echo "Hello World";
 
- $name = "Maria";
-     print "Seja Bem-Vinda " . $name; 
-
-
-
-
-// echo"Hello World";
-
-// $name = "Maria";
-   // print "Seja Bem-Vinda, $name!"; 
+$name = "Maria";
+print "Seja Bem-Vinda " . $name;
 
 
 
 
-// Variáveis Distintas
-
-// $numero1 = 10;
-// $numero2 = 20;
-
-// $resultado = $numero1 + $numero2;
-    // print "A soma é: " . $resultado;
+echo "Hello World";
 
 
 
-// if e else
-
-// $idade1 = 25;
-// $idade2 = 30;
-
-// if ($idade1 > $idade2 )
-        // print"Acesso negado";
-// else {
-        // print"Acesso permitido";
-// }
+$name = "Maria";
+print "Seja Bem-Vinda, $name!";
 
 
 
 
-$maiorDeIdade = 18;
-$menorDeIdade = 17;
+//Variáveis Distintas
 
-if ($maiorDeIdade > $menorDeIdade)
-        print"Você é maior de idade";
+$numero1 = 10;
+$numero2 = 20;
+
+$resultado = $numero1 + $numero2;
+print "A soma é: " . $resultado;
+
+
+
+//if e else
+
+$idade1 = 25;
+$idade2 = 30;
+
+if ($idade1 > $idade2)
+        print "Acesso negado";
 else {
-        print"Você é menor de idade";
+        print "Acesso permitido";
 }
 
 
 
 
+$maiorDeIdade = 20;
+$menorDeIdade = 15;
 
-
-?>
+if ($maiorDeIdade > $menorDeIdade)
+        print "Você é maior de idade";
+else {
+        print "Você é menor de idade";
+}
