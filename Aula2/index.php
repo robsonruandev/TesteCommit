@@ -1,58 +1,72 @@
 <?php
 
-echo "Hello, Wagner!";
+//echo "Hello, Wagner!";
 
 
 // Aula 3
 
+//$idade = "12";
+//$idade = "15";
 
-echo "Hello World";
+//define("wagner","wagner");
+//$wagner = "Waguinho";
 
-$name = "Maria";
-print "Seja Bem-Vinda " . $name;
+//var_dump($wagner);
+//const wagner2 = "Waguinho";
 
-
-
-
-echo "Hello World";
-
-
-
-$name = "Maria";
-print "Seja Bem-Vinda, $name!";
+//ar_dump(wagner2);
 
 
 
+//Operadores Aritmeticos
 
-//Variáveis Distintas
+//$wagner = "wagner";
+//$inteiro = 2;
+//$float = 2.5;
+//$boolean = true;    
 
-$numero1 = 10;
-$numero2 = 20;
+//$caso = "2";
 
-$resultado = $numero1 + $numero2;
-print "A soma é: " . $resultado;
+//$calculo = $inteiro + $float;
+//$calculo > $caso; return $boolean;
 
-
-
-//if e else
-
-$idade1 = 25;
-$idade2 = 30;
-
-if ($idade1 > $idade2)
-        print "Acesso negado";
-else {
-        print "Acesso permitido";
-}
+//echo "";
 
 
+//$menordeidade = "17";
+//$maiordeidade = "18";
+
+//$nome = readline("Digite seu nome: ");
+//$idade1 = readline("Digite sua idade: ");
+
+//$idade1 >= $maiordeidade ? print "$nome Você é maior de idade!" : print "$nome Você é menor de idade!";
 
 
-$maiorDeIdade = 20;
-$menorDeIdade = 15;
+$caso1 = "2";
 
-if ($maiorDeIdade > $menorDeIdade)
-        print "Você é maior de idade";
-else {
-        print "Você é menor de idade";
-}
+//$calculo1 = "1";
+//$calculo2 = "0.5";
+$calculo1 = readline("Digite um numero: ");
+$calculo2 = readline("Digite outro numero: ");
+$resultado = $calculo1 + $calculo2;
+
+$resultado >= $caso1 ? print "O resultado é $resultado, logo " . "Verdadeiro" : print "O resultado é $resultado, logo " . "Falso";
+
+//? print "O resultado é maior que 2" : print "O resultado é menor que 2";
+
+
+
+
+
+//$boolean = true;
+
+//$soma = $inteiro + $float;
+//$subtracao = $inteiro - $float;
+//$multiplicacao = $inteiro * $float;
+//$divisao = $inteiro / $float;
+
+//echo "$soma" ."\n";
+//echo"$subtracao" ."\n";
+//echo"$multiplicacao" ."\n";
+//echo"$divisao" ."\n";
+
